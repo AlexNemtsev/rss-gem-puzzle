@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  padding: 0 10px;
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  align-self: center;
+}
+
+.grid {
+  box-sizing: content-box;
+  display: grid;
+  border: 10px solid #FF9100;
+  border-radius: 10px;
+  box-shadow: -1px -1px 1px 1px #FFAB40,
+    1px 1px 5px 1px #3E2723,
+    inset 0.5px 0.5px 1px 1px #3E2723;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-color: #FF9100;
+}
+
+.grid__elem {
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  user-select: none;
+  background-color: #FAFAFA;
+  box-shadow: 1px 1px 1px #3E2723, -1px -1px 1px #EFEBE9;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  box-shadow: inset 1px 1px 3px #3E2723;
+  border-radius: 50%;
+  color: #EF6C00;
+  font-weight: 600;
+}
+
+.form {
+  padding: 1px 0;
+  box-sizing: content-box;
+  width: 300px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFAB40;
+  border: 10px solid #FFAB40;
+  border-radius: 7.5px;
+  box-shadow: -1px -1px 1px 1px #FFAB40,
+    1px 1px 5px 1px #3E2723,
+    inset 0.5px 0.5px 1px 0.5px #3E2723;
+}
+
+.rect {
+  border-radius: 8.5px;
+  box-shadow: inset 0.5px 0.5px 1px #3E2723;
+  color: #E65100;
+}
+
+.form button {
+  width: 100px;
+  height: 25px;
+  margin: 1px;
+  background-color: #FAFAFA;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #3E2723, -1px -1px 1px #EFEBE9;
+}
+
+.form button:hover,
+.form select:hover {
+  cursor: pointer;
+}
+
+.form button:active {
+  position: relative;
+  top: 0.5px;
+  left: 0.5px;
+  box-shadow: -1px -1px 1px #3E2723;
+}
+
+.form select {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 1px #3E2723, -1px -1px #3E2723;
+  color: #E65100;
+}
+
+.top-wrapper {
+  margin: 0 auto;
+  width: 320px;
+  background-color: #FAFAFA;
+  border: 10px solid #FAFAFA;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #3E2723,
+    -1px -1px 1px #EFEBE9,
+    inset 0.5px 0.5px 0.5px 1px #3E2723;
+}
+
+.top-10-list {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.top-10-list li {
+  width: 130px;
+}
+
+h2 {
+  text-align: center;
+  width: 300px;
+  margin: 10px 0;
+}
+
